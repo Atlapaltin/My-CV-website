@@ -1,29 +1,50 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     margin: 0px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Genos', sans-serif;
+}
+
+h3 {
+    font-family: 'Genos', sans-serif;
 }
 
 .topContainer {
     background-color: #F3EEEA;
     position: relative;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .cloudImage {
     position: absolute;
-    top: 600px;
+    top: 200px;
 }
 
 .codeCreationImage {
-    position: absolute;
-    right: 500px;
+    
 }
 
 .jsCodeImage {
-    position: absolute;
-    left: 500px;
+    
 }
+
+.middleContainer {
+    background-color: #F3EEEA;
+    padding-top: 20px;
+    
+}
+
+.bottomContainer {
+    background-color: #F3EEEA;
+    padding-top: 20px;
+    
+}
+
