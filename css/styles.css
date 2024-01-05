@@ -5,46 +5,107 @@ body {
 }
 
 h1 {
-    margin: 0px;
+    
+    margin: 0px auto 0px auto;
     font-family: 'Sacramento', cursive;
+    color: #52524E;
+    font-size: 5.625rem; 
+    /*to make font size change dynamically depending on browser settings,
+    turn pixels into "rem": divide pixel value (px) by 16 */
 }
 
 h2 {
+    
+    margin: 0px auto 0px auto;
     font-family: 'Genos', sans-serif;
+    color: #52524E;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    
+    margin: 0px auto 0px auto;
     font-family: 'Genos', sans-serif;
+    color: #52524E;
+    font-size: 1.875rem;
 }
 
 .topContainer {
-    background-color: #F3EEEA;
+    background-color: #F3C5C5;
     position: relative;
     padding-top: 20px;
-}
+    padding-bottom: 0px;
 
-.cloudImage {
-    position: absolute;
-    top: 200px;
-}
+    .arrowsUpImage {
+        width: 30%;
+        margin: auto;
+        display: block;
+    }
 
-.codeCreationImage {
+    .cloudImage {
     
-}
-
-.jsCodeImage {
-    
+        position: absolute;
+        top: 155px;
+        right: 400px;
+        width:15%
+    }
 }
 
 .middleContainer {
-    background-color: #F3EEEA;
+    background-color: #C1A3A3;
+    position: relative;
     padding-top: 20px;
+    padding-bottom: 20px;
+
+    .profileSection{
+        width: 50%; 
+        margin: 0px auto 0px auto; 
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .femaleDeveloperImage{
+        margin: auto;
+        display: block;
+        width: 40%;
+    }
+
+    .listOfSkillsUpper{
+        width: 50%; 
+        margin: 0px auto 40px auto; 
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .listOfSkillsLower{
+        width: 50%;
+        margin: 0px auto 0px auto; 
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .codeCreationImage {
+        float: right;
+        width: 30%;
+        margin-right: 30px;
+    }
+    
+    .jsCodeImage {
+        float: left;
+        width: 20%;
+        margin-left: 30px;
+    }
     
 }
 
 .bottomContainer {
-    background-color: #F3EEEA;
     padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #886F6F;
+    position: relative;
+
+    .contactDetailsSection {padding: 0px; margin: 0px; border: 0px;}
     
 }
 
