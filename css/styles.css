@@ -187,7 +187,7 @@ hr{
 
 .footer{
     background-color: #685454;
-    padding: 50px 0 20px;
+    padding: 20px 0 20px;
   }
 
   .copyright{color: whitesmoke; font-family: 'Genos', sans-serif;}
@@ -196,5 +196,10 @@ hr{
     font-family: 'Genos', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
+
+  }
+
+  .linkToMySocialMedia:hover{
+    color: #C1A3A3;
   }
 
