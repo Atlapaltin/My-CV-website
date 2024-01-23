@@ -203,3 +203,64 @@ hr{
     color: #C1A3A3;
   }
 
+  @media screen and (max-width: 500px) {
+
+    .body {
+        display:flex
+    }
+
+    .topContainer{
+        .arrowsUpImage {
+            width: 50%;
+            margin: auto;
+            display: block;
+        }
+    
+        .cloudImage {
+        
+            position: absolute;
+            top: 155px;
+            right: 300px;
+            width:25%
+        }
+    }
+
+    .middleContainer h1 {
+      font-size: 3.5rem;
+    }
+
+    .middleContainer h2 {
+        font-size: 2.5rem;
+      }
+  
+    .middleContainer .profileSection {
+      width: 70%;
+    }
+  
+    .middleContainer .myBio {
+      width: 85%;
+    }
+  
+    .middleContainer .listOfSkillsUpper {
+      width: 70%;
+    }
+  
+    .middleContainer .listOfSkillsLower {
+      width: 70%;
+    }
+
+    .bottomContainer{
+        .contactMeMessage{
+            width: 70%;
+            margin: 0px auto 0px auto; 
+            text-align: justify;
+        }
+    
+        .contactMePurposesList{
+            width: 70%;
+            margin: 0px auto 0px auto; 
+            text-align: justify;
+        }
+    }
+  
+  }
